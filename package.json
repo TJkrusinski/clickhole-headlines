@@ -1,0 +1,29 @@
+{
+  "name": "clickhole-headlines",
+  "version": "1.0.0",
+  "description": "get the latest 200 headlines from clickhole.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TJkrusinski/clickhole-headlines.git"
+  },
+  "keywords": [
+    "clickhole",
+    "scraper"
+  ],
+  "author": "TJ Krusinski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TJkrusinski/clickhole-headlines/issues"
+  },
+  "homepage": "https://github.com/TJkrusinski/clickhole-headlines",
+  "dependencies": {
+    "jsdom": "^1.0.0-pre.5"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1"
+  }
+}
