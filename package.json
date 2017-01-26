@@ -1,6 +1,6 @@
 {
   "name": "clickhole-headlines",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "get the latest 200 headlines from clickhole.com",
   "main": "index.js",
   "scripts": {
