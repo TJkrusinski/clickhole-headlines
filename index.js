@@ -12,14 +12,11 @@ module.exports = clickhole;
  *  Clickhole
  *
  *  @param {Function} cb
- *  @param {Number} pages - the number of pages to scrape
  *  @return undefined
  *  @api public
  */
 
-function clickhole(cb, pages) {
-  // don't let the user put in some weird number
-  if (pages && (pages < 1 || pages > 10)) pages = 10;
-  pages = pages || 10;
-  scraper(cb, pages);
+function clickhole(cb) {
+  if (typeof cb != 'function') throw new Error('Expected callback function');
+  scraper(cb);
 };

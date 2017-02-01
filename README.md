@@ -14,9 +14,9 @@ clickhole(function(err, headlines){
 });
 ```
 
-### `clickhole(cb, maxPages)`
+### `clickhole(cb)`
 
-Takes two args, first is a required callback function, the second is the maximum number of pages to scrape.
+Takes one argument, a node-style callback with the second argument being an array of titles of buzzfeed posts.
 
 ## Tests
 
